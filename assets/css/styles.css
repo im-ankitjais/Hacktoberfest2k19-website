@@ -1,0 +1,87 @@
+#maind {
+  width: 100%;
+  height: 250px;
+}
+
+#one {
+  float: left;
+  width: 50%;
+  height: 250px;
+}
+
+#two {
+  float: right;
+  height: 250px;
+  width: 50%;
+}
+
+#emshalogo {
+  height: 60px;
+}
+
+#mainlogo {
+  height: 250px;
+  width: 80%;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  background: linear-gradient(to right,white 0%, #2e031f 100%);
+}
+
+#containone {
+  background: url(../../assets/img/logocrop.png);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  width: 100%;
+}
+
+#agenda {
+  width: 50%;
+  height: 400px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  float: left;
+}
+
+#middle {
+  width: 100%;
+  margin: 0px;
+  height: 400px;
+  background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+}
+
+#map {
+  width: 50%;
+  float: right;
+  height: 400px;
+}
+
+#emishalogo {
+  height: 180px;
+  width: 30%;
+  padding-top: 72px;
+  padding-left: 65px;
+  float: left;
+}
+
+#grab {
+  text-align: left;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 800;
+  padding-bottom: 0px;
+  width: 70%;
+  float: right;
+  padding-left: 10px;
+}
+
+#bureg {
+  width: 50%;
+}
+
+h {
+}
+
