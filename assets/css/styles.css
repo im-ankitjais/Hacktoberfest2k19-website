@@ -1,18 +1,22 @@
 #maind {
   width: 100%;
-  height: 250px;
+  height: 400px;
+  background: url(../../assets/img/logocrop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #one {
   float: left;
   width: 50%;
-  height: 250px;
+  height: 400px;
 }
 
 #two {
-  float: right;
-  height: 250px;
+  float: left;
+  height: 400px;
   width: 50%;
+  padding-right: 0px;
 }
 
 #emshalogo {
@@ -20,8 +24,9 @@
 }
 
 #mainlogo {
-  height: 250px;
+  height: 300px;
   width: 80%;
+  margin: 70px;
 }
 
 .navbar.navbar-light.navbar-expand-md {
@@ -35,6 +40,7 @@
   background-size: cover;
   margin: 0px;
   width: 100%;
+  padding-bottom: 1px;
 }
 
 #agenda {
@@ -50,7 +56,9 @@
   width: 100%;
   margin: 0px;
   height: 400px;
-  background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+  background: linear-gradient(to left, #33ceff 0%, #d03683 100%);
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 #map {
@@ -60,10 +68,9 @@
 }
 
 #emishalogo {
-  height: 180px;
-  width: 30%;
-  padding-top: 72px;
-  padding-left: 65px;
+  height: 150px;
+  width: 100%;
+  padding-left: 85px;
   float: left;
 }
 

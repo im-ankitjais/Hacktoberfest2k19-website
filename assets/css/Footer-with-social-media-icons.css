@@ -1,9 +1,5 @@
-#footerpad {
-  padding-top: 70px;
-  padding-bottom: 20px;
-}
-
 a:focus, a:hover {
   color: #0085A1;
+  flex-grow: initial;
 }
 

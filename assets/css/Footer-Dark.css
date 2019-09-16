@@ -88,3 +88,27 @@
   margin-bottom: 0;
 }
 
+#head {
+  color: blue;
+}
+
+#counthead {
+  color: rgb(23,3,33);
+  font-size: 46px;
+  width: 100%;
+}
+
+iframe {
+  height: 400px;
+  width: 100%;
+}
+
+.container-fluid.d-inline-block {
+}
+
+.container-fluid.d-inline-block {
+  width: 100%;
+  height: 250px;
+  padding: 0px;
+}
+

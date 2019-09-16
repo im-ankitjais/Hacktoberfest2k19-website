@@ -1,0 +1,12 @@
+#footerpad {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  background: url(../../assets/img/newback.png);
+  height: 150px;
+  margin-top: 0px;
+}
+
+a:focus, a:hover {
+  color: #0085A1;
+}
+

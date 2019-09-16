@@ -7,22 +7,28 @@
     <title>fimishdemo</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/countdown-timer-1.css">
+    <link rel="stylesheet" href="assets/css/countdown-timer-2.css">
+    <link rel="stylesheet" href="assets/css/countdown-timer-3.css">
+    <link rel="stylesheet" href="assets/css/countdown-timer-4.css">
+    <link rel="stylesheet" href="assets/css/countdown-timer-5.css">
+    <link rel="stylesheet" href="assets/css/countdown-timer.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons-1.css">
     <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider-1.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md sticky-top">
-        <div class="container-fluid"><img class="float-right" id="emshalogo" src="assets/img/college-chapter.png"></div>
-    </nav>
     <div id="maind">
-        <div id="one"><img id="mainlogo" src="assets/img/pretty_logo.png"></div>
-        <div id="two"><img id="emishalogo" src="assets/img/emishalogo.png">
-            <p id="grab">Grab Your Seat Now!!</p><a class="btn btn-primary btn-lg d-md-flex justify-content-md-center align-items-md-start" role="button" id="bureg" target="_blank">Register Here!!</a></div>
+        <div id="one"><img data-bs-hover-animate="tada" id="mainlogo" src="assets/img/pretty_logo.png"></div>
+        <div id="two">
+            <p id="brought">Brought To You By&nbsp;</p><a id="linkemisha" href="http://emisha.community" target="_blank"><img class="img-fluid" data-bs-hover-animate="rubberBand" id="emishalogo" src="assets/img/college-chapter.png"></a></div>
     </div>
     <div class="container-fluid" id="containone">
         <h2>What's Hacktoberfest?</h2>
@@ -34,6 +40,37 @@
             any public repo on GitHub, not just the ones with issues labeled Hacktoberfest. If a maintainer reports your pull request as spam or behavior not in line with the project’s code of conduct, you will be ineligible to participate.Connect with
             other Hacktoberfest participants by using #hacktoberfest on your social media platform of choice.New to DigitalOcean? Receive USD $50 in infrastructure credit at https://do.co/hacktoberfest50.<br><br></p>
     </div>
+    <div id="regis">
+        <div id="count">
+            <div class="container">
+                <h1 class="tada animated infinite" id="hack">Hacking Starts In</h1>
+                <div data-bs-hover-animate="tada" id="clockdiv">
+                    <div id="oned" class="clock-wrapper"><span id="days" class="days"> </span>
+                        <div class="smalltext">
+                            <p id="pcolor">Days </p>
+                        </div>
+                    </div>
+                    <div id="twod" class="clock-wrapper"><span id="hours" class="hours"> </span>
+                        <div class="smalltext">
+                            <p id="pcolor">Hours </p>
+                        </div>
+                    </div>
+                    <div id="threed" class="clock-wrapper"><span id="min" class="minutes"> </span>
+                        <div class="smalltext">
+                            <p id="pcolor">Minutes </p>
+                        </div>
+                    </div>
+                    <div id="fourd" class="clock-wrapper"><span id="sec" class="seconds"> </span>
+                        <div class="smalltext">
+                            <p id="pcolor">Seconds </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="register">
+            <div id="pic"><img id="reigpic" src="assets/img/emishalogo.png"></div><button class="btn btn-primary" id="regisbutton" type="button">Register Here!</button></div>
+    </div>
     <div id="middle">
         <div id="agenda">
             <h2 id="para">Agenda</h2>
@@ -44,41 +81,58 @@
             <p>Workshop</p><i class="fa fa-arrow-down"></i>
             <p>Demo's of some projects</p><i class="fa fa-arrow-down"></i>
             <p>Hack Time!!!</p>
-        </div>
-        <div id="map">
-            <p>Location map</p>
-        </div>
-    </div>
+        </div><div id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.4954131020345!2d85.72036011428446!3d20.23827851966926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a9ac7b885677%3A0x6f8650ff50cdd197!2sGITA%20Campus!5e0!3m2!1sen!2sin!4v1568654771526!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div></div>
     <div class="simple-slider">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(https://cdn.bootstrapstudio.io/placeholders/1400x800.png);"></div>
-                <div class="swiper-slide" style="background-image:url(https://cdn.bootstrapstudio.io/placeholders/1400x800.png);"></div>
-                <div class="swiper-slide" style="background-image:url(https://cdn.bootstrapstudio.io/placeholders/1400x800.png);"></div>
+                <div class="swiper-slide" style="background-image: url(https://cdn.bootstrapstudio.io/placeholders/1400x800.png);"><img class="img-fluid" src="assets/img/Screenshot%20(71).png"></div>
+                <div class="swiper-slide" style="background-image:url(https://cdn.bootstrapstudio.io/placeholders/1400x800.png);"><img class="img-fluid" src="assets/img/Screenshot%20(72).png"></div>
+                <div class="swiper-slide" style="background-image:url(https://cdn.bootstrapstudio.io/placeholders/1400x800.png);"><img class="img-fluid" src="assets/img/Screenshot%20(73).png"></div>
+                <div class="swiper-slide" style="background-image:url(https://cdn.bootstrapstudio.io/placeholders/1400x800.png);"><img class="img-fluid" src="assets/img/Screenshot%20(74).png"></div>
+                <div class="swiper-slide" style="background-image:url(https://cdn.bootstrapstudio.io/placeholders/1400x800.png);"><img class="img-fluid" src="assets/img/Screenshot%20(75).png"></div>
+                <div class="swiper-slide" style="background-image:url(https://cdn.bootstrapstudio.io/placeholders/1400x800.png);"><img class="img-fluid" src="assets/img/Screenshot%20(76).png"></div>
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
     </div>
-    <div>
-        <p>&nbsp;Next Put Here Guest &amp; Speakers</p>
+    <p class="text-center" id="past">Past Speakers</p>
+    <div id="main">
+        <div id="tadit">
+            <div class="container" id="tcon"><img class="img-fluid" id="imgtadit" src="assets/img/cropped-Tadit-Dash-Official-Site-2.jpg">
+                <p id="cen">Tadit Dash</p>
+                <p id="mid"><br><strong>SOFTWARE ENGINEER , AUTHOR</strong><br><br></p>
+                <p id="abo"><br><strong>Tadit Dash</strong>&nbsp;is a Software Engineer in Mindfire Solutions, Bhubaneswar.He is also a Technical Book Author by passion. He has authored bestseller books in the category of Software and Computer Science.<br></p>
+            </div>
+        </div>
+        <div id="surya">
+            <div class="container" id="scon"><img class="img-fluid" id="imgsurya" src="assets/img/66683856_3087892887917465_5324030971811463168_n.jpg">
+                <p id="cen">Surya Narayan Barik</p>
+                <p id="mid"><br><strong>SOFTWARE ENGINEER , AUTHOR</strong><br><br></p>
+                <p id="abo"><br>Software Engineer(R&amp;D) at ProcessMAP Corporation.<br>He is a Community manager of Swift India, BBSR chapter and one of the core team members of “UTKAL TECHIES FORUM”.&nbsp;<br><br></p>
+            </div>
+        </div>
     </div>
     <footer id="footerpad">
-        <div class="container">
+        <div class="container contain" id="contain">
             <div class="row">
-                <div class="col-md-6 col-lg-8 mx-auto">
+                <div class="col-md-6 col-lg-8 mx-auto" id="shift">
                     <ul class="list-inline text-center">
                         <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
                         <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
                         <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
-                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-pinterest fa-stack-1x fa-inverse"></i></span></a></li>
-                    </ul><p class="copyright text-muted text-center">Copyright &copy; Emisha@Gita | Web Design by Ankit Jaiswal</p></div>
+                        <li class="list-inline-item"><a href="#"></a></li>
+                    </ul><p class="copyright text-muted text-center">Copyright &copy; Emisha | Web Design by Ankit Jaiswal</p></div>
             </div>
         </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/countdown-timer.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
 </body>
