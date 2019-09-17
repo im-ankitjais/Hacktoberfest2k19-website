@@ -114,6 +114,9 @@ iframe {
   width: 60%;
   float: left;
   height: 200px;
+  background: url(../../assets/img/photos.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #pic {
